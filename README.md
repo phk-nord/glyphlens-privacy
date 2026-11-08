@@ -13,7 +13,6 @@ Published at:
 - `index.html` — the published policy page.
 - `icon.svg` — GlyphLens icon used by the page.
 - `.nojekyll` — tells GitHub Pages to serve the files as-is.
-- `robots.txt` — allows search engines to index the policy.
 
 ## Updating the policy
 
