@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="bg" x1="16" y1="8" x2="112" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#134e4a"/>
+      <stop offset="0.55" stop-color="#0b2b2c"/>
+      <stop offset="1" stop-color="#07111a"/>
+    </linearGradient>
+    <linearGradient id="frame" x1="28" y1="24" x2="100" y2="104" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#99f6e4"/>
+      <stop offset="1" stop-color="#2dd4bf"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="124" height="124" rx="29" fill="url(#bg)"/>
+  <rect x="2.75" y="2.75" width="122.5" height="122.5" rx="28.25" fill="none" stroke="#5eead4" stroke-opacity="0.22" stroke-width="1.5"/>
+  <g fill="none" stroke="url(#frame)" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M30 45V31h14"/>
+    <path d="M84 31h14v14"/>
+    <path d="M98 83v14H84"/>
+    <path d="M44 97H30V83"/>
+  </g>
+  <text x="64" y="84" text-anchor="middle"
+        font-family="Noto Sans CJK JP, Noto Sans CJK SC, Source Han Sans, sans-serif"
+        font-size="50" font-weight="700" fill="#f0fdfa">文</text>
+</svg>
